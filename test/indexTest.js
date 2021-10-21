@@ -9,7 +9,7 @@ const rando = Math.ceil( Math.random() * 1000 )
 describe( "submitData()", () => {
   let xhr, requests
   beforeEach( function () {
-    window.fetch = require( 'node-fetch' );
+    window.fetch = require( 'node-fetch');
 
 
 
